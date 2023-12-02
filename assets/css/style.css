@@ -3,13 +3,14 @@
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 :root {
   --primary-color: #0f1b4c;
 }
 body {
   font-size: 1.6rem;
-  /* font-family: ; */
+  scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
 .content {
@@ -24,10 +25,11 @@ a {
 }
 .hero-wrap {
   background-color: #e6f0ff;
-  height: 100vh;
+  height: calc(100vh - 90px);
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .fixed-header {
   background-color: #e6f0ff;
@@ -83,7 +85,7 @@ a {
   border-radius: 8px;
 }
 .hero {
-  margin-top: 130px;
+  /* margin-top: 130px; */
 }
 .hero .info {
   width: 50%;
